@@ -1,0 +1,22 @@
+{
+  "projeto": "Sistema de Análise de Dados",
+  "versao": 2.8,
+  "ativo": true,
+  "configuracoes": {
+    "precisao": 0.001,
+    "limites": {
+      "temperatura": $500 / (2^3)$,
+      "pressao": $(1.5 * (100 - 3^3))$
+    },
+    "modo_avancado": null
+  },
+  "estatisticas": {
+    "media": $(12.5 + 15.8 + 17.3 + 14.9 + 16.2) / 5$,
+    "variancia": $((12.5-15.34)^2 + (15.8-15.34)^2 + (17.3-15.34)^2 + (14.9-15.34)^2 + (16.2-15.34)^2) / 5$
+  },
+  "expressoes_avancadas": {
+    "combinatoria": $factorial(5) / (factorial(3) * factorial(2))$,
+    "logaritmo": $log(1000) / log(10)$,
+    "integral": $\int_{0}^{1} x^2 dx$
+  }
+}
